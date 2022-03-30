@@ -1,0 +1,31 @@
+h2 {
+    margin: 5px 0;
+}
+h5 {
+    margin: 0;
+    font-weight: normal;
+    color: #00c410;
+}
+.Index-Video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+.Index-Url {
+    padding: 50px 0 150px 0;
+    background: url(../images/bg2.jpeg) center center;
+    background-size: cover;
+    background-position: 50% -243px;
+}
+.Index-News {
+    border: 2.5px solid #00b30f;
+    background-color: #ffffff;
+    margin-right: 50px;
+    padding: 15px;
+}
+.Index-News-Log {
+    overflow: scroll;
+    width: 400px;
+    height: 500px;
+}

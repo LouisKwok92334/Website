@@ -1,0 +1,102 @@
+.Display {
+    display: none !important;
+}
+.Forums-Photo {
+    height: 500px;
+    background: url(../images/待ち人.jpeg) no-repeat center center;
+    background-size: cover;
+}
+.Forums {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.Forums-Box {
+    width: 60%;
+}
+.Forums-Title {
+    font-weight: bold;
+    font-size: 25px;
+}
+.Forums-Data {
+    border: 1px solid #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.Forums-Publish {
+    text-align: center;
+    background-color: #00b1c9;
+    color: #ffffff;
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 35px;
+    cursor: pointer;
+    user-select: none;
+    width: 80%;
+    transition: all .3s;
+    margin-bottom: 10px;
+}
+.Forums-Publish:hover {
+    background-color: #0093a7;
+    transition: all .3s;
+}
+.Forums-Article-Data {
+    width: 100%;
+    text-decoration: none;
+}
+.Forums-Article-Data > a {
+    text-decoration: none;
+}
+.Forums-Article-Display {
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #f7f7f7;
+    border: 1px solid #f1f1f1;
+}
+.Forums-Article {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.Forums-Post-Data {
+    display: flex;
+    align-items: center;
+}
+.Forums-User-Data {
+    margin-left: 15px;
+}
+.Forums-User-Name {
+    color: #0093a7;
+}
+.Forums-User-Contact {
+    color: #000000;
+}
+.Forums-User-Icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 999em;
+    border: 2.5px solid #0093a7;
+}
+.Forums-Article-Date {
+    color: #7a7a7a;
+}
+.Forums-Article-Content {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px 0;
+}
+.Create-Article {
+    border: 1px solid #a8a8a8;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10px 0;
+}
+.Create-Article > input {
+    margin: 10px 0;
+}

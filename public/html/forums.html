@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forums</title>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/forums.css">
+</head>
+<body>
+    <header></header>
+    <section>
+        <div class="Forums-Photo"></div>
+        <div class="Forums">
+            <div class="Forums-Box">
+                <div class="Forums-Title">遊戲討論區</div>
+                <hr>
+                <div class="Forums-Data">
+                    <div class="Forums-Publish">發表文章</div>
+                    <form id="Create-Article" class="Create-Article Display">
+                        <input name="articleName" type="text" placeholder="文章名字" id="groupName" required="required" />
+                        <textarea name="articleText" rows="10" placeholder="文章內容" required="required"></textarea>
+                        <input type="submit" class="Create-Article-Button" value="創建" />
+                    </form>
+                    <div class="error"></div>
+                    <div class="Forums-Article-Data">
+                        <a href="forums.html?id=1">
+                            <div class="Forums-Article-Display">
+                                <div class="Forums-Article">
+                                    <div class="Forums-Post-Data">
+                                        <img class="Forums-User-Icon" src="../images/四景.jpeg">
+                                        <div class="Forums-User-Data">
+                                            <div class="Forums-User-Name">VTC學生</div>
+                                            <div class="Forums-User-Contact">please run: CREATE DATABASE madoka_adventure;</div>
+                                        </div>
+                                    </div>
+                                    <div class="Forums-Article-Date">2022-03-28</div>
+                                </div>
+                            </div>
+                            <div class="Forums-Article-Display">
+                                <div class="Forums-Article">
+                                    <div class="Forums-Post-Data">
+                                        <img class="Forums-User-Icon" src="../images/四景.jpeg">
+                                        <div class="Forums-User-Data">
+                                            <div class="Forums-User-Name">VTC學生</div>
+                                            <div class="Forums-User-Contact">please run: ts-node main.ts & yarn knex migrate:latest</div>
+                                        </div>
+                                    </div>
+                                    <div class="Forums-Article-Date">2022-03-28</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+    <script src="../js/navbar.js"></script>
+    <script src="../js/forums.js"></script>
+</body>
+</html>

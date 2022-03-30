@@ -1,0 +1,30 @@
+.Download-Photo {
+    height: 500px;
+    background: url(../images/四景.jpeg) no-repeat center center;
+    background-size: cover;
+}
+.Download {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.Download-Box {
+    width: 60%;
+}
+.Download-Title {
+    font-weight: bold;
+    font-size: 25px;
+}
+.Download-Data {
+    border: 1px solid #f1f1f1;
+}
+.Download-Name {
+    padding: 30px 20px 200px;
+    background-color: #fefefe;
+    display: flex;
+    justify-content: space-between;
+}
+.Download-Name > a {
+    text-decoration: none;
+    color: #2199e8;
+}

@@ -1,0 +1,38 @@
+h1 {
+    color: #ffffff;
+    margin: 0;
+    text-decoration: underline;
+    font-weight: normal;
+    text-align: center;
+    font-size: 35px;
+}
+.Character-Display {
+    background-color: black;
+    padding: 10px 50px;
+}
+.Character-List {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #ffffff;
+    margin: 10px;
+}
+.Character-Name {
+    border: 1px solid #ffffff;
+    padding: 5px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+.Character-Name:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+.Character-Photo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.Character-Photo > img {
+    height: 400px;
+}

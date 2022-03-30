@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    margin: 0;
+    margin-top: 10px;
+}
+li {
+    list-style-type: none;
+}
+li:first-child {
+    border-left: 1px solid;
+}
+li:not(:first-child) {
+    border-left: 1px solid;
+    padding: 0 10px;
+}
+li:last-child {
+    border-right: 1px solid;
+}
+section {
+    margin-top: 160px;
+}
+.Title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 10px -7px #1e1e1e;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.Title-Introduce {
+    padding: 10px 0;
+}
+.Title-Icon {
+    margin-left: 30px;
+    width: 300px;
+    height: 100px;
+    transition: all .3s;
+}
+.mini {
+    width: 150px;
+    height: 50px;
+    transition: all .3s;
+}
+.Title-Menu {
+    display: flex;
+}
+.Title-Menu > li > a {
+    padding: 5px 20px;
+    color: black;
+    text-decoration: none;
+}
+.Title-Menu > li > :hover{
+    box-shadow: 0 5px 6px -4px #00f7ff
+}
+.Title-Login-Icon {
+    cursor: pointer;
+    margin-right: 20px;
+}
+.Title-Login-Icon > img{
+    width: 70px;
+    height: 70px;
+    opacity: .3;
+    border-radius: 999em;
+    border: 3px solid #81c0c4;
+}
+.Title-Login-Icon > img:hover{
+    opacity: .5;
+}
+.Bottom {
+    color: #ffffff;
+}
+.Bottom-Introduce > img {
+    height: 18%;
+    width: 18%;
+}
+.Bottom-Introduce {
+    display: flex;
+    background-color: #363636;
+    justify-content: space-around;
+    padding: 40px 50px;
+    font-size: 16px;
+}
+.Bottom-Button {
+    display: flex;
+    flex-direction: column;
+}
+.Bottom-button > div > a {
+    text-decoration: none;
+    color: #ffffff;
+}  
+.Bottom-button > div {
+    padding-top: 25px;
+}  
+.Bottom-button > div > a:hover {
+    color: #dadada;
+}
+.Bottom-Regulations {
+    text-align: center;
+    background-color: #000000;
+    padding: 10px;
+}

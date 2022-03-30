@@ -1,0 +1,38 @@
+.Contact-Photo {
+    height: 500px;
+    background: url(../images/となりまちのはなび.jpeg) no-repeat center center;
+    background-size: cover;
+}
+.Contact {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.Contact-Box {
+    width: 60%;
+}
+.Contact-Title {
+    font-weight: bold;
+    font-size: 25px;
+}
+.Contact-Data {
+    border: 1px solid #f1f1f1;
+}
+.Contact-Name:nth-child(2n + 1) {
+    padding: 10px 20px;
+    background-color: #fefefe;
+}
+.Contact-Name:nth-child(2n) {
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+}
+.Contact-Name:nth-child(2n + 1):hover {
+    background-color: #fafafa;
+}
+.Contact-Name:nth-child(2n):hover {
+    background-color: #ebebeb;
+}
+.Contact-Name > a {
+    text-decoration: none;
+    color: #2199e8;
+}
