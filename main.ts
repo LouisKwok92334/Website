@@ -3,7 +3,7 @@ import path from 'path';
 import http from "http";
 import dotenv from "dotenv";
 import Knex from "knex";
- const knexfile = require("./knexfile");
+const knexfile = require("./knexfile");
 export const knex = Knex(knexfile[process.env.NODE_ENV || "development"]);
 import {ForumsService} from "./services/ForumsService";
 import {ForumsController} from "./controllers/ForumsController";

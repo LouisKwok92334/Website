@@ -1,5 +1,5 @@
 export default {
-    jwtSecret: "guildmasterispanther",
+    jwtSecret: "thisisvtcproject",
     jwtSession:{
         session:false
     }
