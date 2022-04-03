@@ -17,12 +17,13 @@
 }
 .Download-Data {
     border: 1px solid #f1f1f1;
+    padding: 30px 20px 160px;
 }
 .Download-Name {
-    padding: 30px 20px 200px;
     background-color: #fefefe;
     display: flex;
     justify-content: space-between;
+    margin: 10px 0 30px 0;
 }
 .Download-Name > a {
     text-decoration: none;
