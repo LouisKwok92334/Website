@@ -9,6 +9,41 @@ publish.addEventListener('click', function() {
     articleForm.classList.remove('Display')
 })
 
+document.querySelector("#Create-Article").addEventListener("submit", async (event) => {
+    event.preventDefault();
+    
+    const form = event.currentTarget;
+    const newArticle = {};
+    newArticle.article_name = form.articleName.value;
+    newArticle.description = form.articleText.value;
+    const res = await fetch("/createArticle", {
+        method: "post",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(newArticle),
+    });
+
+    // const form = event.currentTarget;
+    // const formData = new FormData();
+    // formData.append("article_name", form.articleName.value);
+    // formData.append("description", form.articleText.value);
+
+    // const res = await fetch("/createArticle", {
+    //     method: "post",
+    //     body: formData, //formData唔需要Content-Type 果個header
+    // });
+
+    if (res.status === 200) {
+        successMessage.innerHTML = /*html*/ `<div class="sign-up-error">成功創建</div>`;
+        form.reset();
+        setTimeout(function () {
+            window.location.href = "forums.html";
+        }, 3000);
+    }
+});
+
+
 async function articleList() {
     const res = await fetch('/getArticle');
     const articles = await res.json();
